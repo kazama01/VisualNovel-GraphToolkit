@@ -19,131 +19,394 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 874784931797795365
-      type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
+    - rid: 874784936210202884
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
-        m_Guid:
-          m_Value0: 6227318078732873418
-          m_Value1: 3361552376465856324
-        m_HashGuid:
-          serializedVersion: 2
-          Hash: caae3d82cce06b5644171e7d13a2a62e
-        m_Version: 2
-        m_Position: {x: 337.60004, y: 80.8}
-        m_Title: 
-        m_Tooltip: 
-        m_NodePreviewModel:
-          rid: -2
-        m_State: 0
-        m_InputConstantsById:
-          m_KeyList:
-          - Script
-          - ScriptFile
-          m_ValueList:
-          - rid: 874784931797795366
-          - rid: 874784931797795367
-        m_InputPortInfos:
-          expandedPortsById:
-            m_KeyList: []
-            m_ValueList: 
-        m_OutputPortInfos:
-          expandedPortsById:
-            m_KeyList: []
-            m_ValueList: 
-        m_Collapsed: 0
-        m_CurrentModeIndex: 0
-        m_ElementColor:
-          m_Color: {r: 0, g: 0, b: 0, a: 0}
-          m_HasUserColor: 0
-        m_Node:
-          rid: 874784931797795368
-    - rid: 874784931797795366
-      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202885
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
-        m_Value: 
-    - rid: 874784931797795367
-      type: {class: 'Constant`1[[UnityEngine.TextAsset, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202886
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202887
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202888
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202889
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202890
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202891
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202892
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202893
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202894
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202895
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202896
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202897
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202898
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202899
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202900
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202901
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202902
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202903
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202904
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202905
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202906
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202907
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202908
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202909
+      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value:
+          m_EnumType:
+            m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Value: 0
+        m_EnumType:
+          m_Identification: VN_FrameWork.CharacterProfile+ActorExpression, Unity.GraphToolkit.Samples.VisualNovelDirector,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 874784936210202957
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: {fileID: 0}
-    - rid: 874784931797795368
-      type: {class: ConversationNode, ns: Unity.GraphToolkit.Samples.VisualNovelDirector.Editor, asm: Unity.GraphToolkit.Samples.VisualNovelDirector.Editor}
+    - rid: 874784936210202958
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
-        Cast: []
-    - rid: 874784931797795383
-      type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: Unity.GraphToolkit.Editor}
-      data:
-        m_Guid:
-          m_Value0: 3481115972392341445
-          m_Value1: 9538194704204853346
-        m_HashGuid:
-          serializedVersion: 2
-          Hash: c54f627c88684f306270a4468c795e84
-        m_Version: 2
-        m_Position: {x: -110.58752, y: 215.37141}
-        m_Title: 
-        m_Tooltip: 
-        m_NodePreviewModel:
-          rid: -2
-        m_State: 0
-        m_InputConstantsById:
-          m_KeyList:
-          - Script
-          - ScriptFile
-          m_ValueList:
-          - rid: 874784931797795384
-          - rid: 874784931797795385
-        m_InputPortInfos:
-          expandedPortsById:
-            m_KeyList: []
-            m_ValueList: 
-        m_OutputPortInfos:
-          expandedPortsById:
-            m_KeyList: []
-            m_ValueList: 
-        m_Collapsed: 0
-        m_CurrentModeIndex: 0
-        m_ElementColor:
-          m_Color: {r: 0, g: 0, b: 0, a: 0}
-          m_HasUserColor: 0
-        m_Node:
-          rid: 874784931797795386
-    - rid: 874784931797795384
-      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: 
-    - rid: 874784931797795385
-      type: {class: 'Constant`1[[UnityEngine.TextAsset, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+        m_Value: {fileID: 11400000, guid: 3a5196b9f97b5f747805b6e7f82194b9, type: 2}
+    - rid: 874784936210202959
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: {fileID: 0}
-    - rid: 874784931797795386
-      type: {class: ConversationNode, ns: Unity.GraphToolkit.Samples.VisualNovelDirector.Editor, asm: Unity.GraphToolkit.Samples.VisualNovelDirector.Editor}
+    - rid: 874784936210202960
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
-        Cast: []
-    - rid: 874784931797795388
-      type: {class: VariableDeclarationModel, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+        m_Value: {fileID: 0}
+    - rid: 874784936210202961
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
-        m_Guid:
-          m_Value0: 9226078374547313228
-          m_Value1: 16182001881538776026
-        m_HashGuid:
-          serializedVersion: 2
-          Hash: 4c52ce58669d0980da4bd2aff90492e0
-        m_Version: 2
-        m_Name: New Variable
-        m_UniqueId: 
-        m_DataType:
-          m_Identification: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_IsExposed: 0
-        m_Scope: 0
-        m_ShowOnInspectorOnly: 0
-        m_Tooltip: 
-        m_InitializationValue:
-          rid: 874784931797795390
-        m_Modifiers: 0
-        m_VariableFlags: 0
-    - rid: 874784931797795390
-      type: {class: 'Constant`1[[UnityEngine.TextAsset, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+        m_Value: {fileID: 0}
+    - rid: 874784936210202962
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202963
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202964
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202965
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202966
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202967
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202968
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202969
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202970
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202971
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202972
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202973
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202974
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202975
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202976
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202977
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202978
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202979
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202980
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202981
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
+      data:
+        m_Value: {fileID: 0}
+    - rid: 874784936210202982
+      type: {class: 'Constant`1[[VN_FrameWork.CharacterProfile, Unity.GraphToolkit.Samples.VisualNovelDirector]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: {fileID: 0}
     - rid: 8271674418125078606
@@ -214,8 +477,6 @@ MonoBehaviour:
         - rid: 8271674418125079005
         - rid: 8271674418125079210
         - rid: 8271674418125079221
-        - rid: 874784931797795365
-        - rid: 874784931797795383
         m_GraphWireModels:
         - rid: 8271674418125078656
         - rid: 8271674418125078660
@@ -279,17 +540,16 @@ MonoBehaviour:
         - rid: 8271674418125078609
         - rid: 8271674418125078612
         - rid: 8271674418125078615
-        - rid: 874784931797795388
         m_GraphPortalModels: []
         m_SectionModels:
         - rid: 8271674418125078607
         m_LocalSubgraphs: []
         m_LastKnownBounds:
           serializedVersion: 2
-          x: -110.4
-          y: 80.799995
-          width: 12596.801
-          height: 596.8
+          x: 375.2
+          y: 390.4
+          width: 12164
+          height: 311.19998
         m_GraphElementMetaData:
         - m_Guid:
             m_Value0: 919800364044898610
@@ -1219,30 +1479,6 @@ MonoBehaviour:
             Hash: a880a94d4495f5a62ace6697ce2ad1fd
           m_Category: 2
           m_Index: 55
-        - m_Guid:
-            m_Value0: 6227318078732873418
-            m_Value1: 3361552376465856324
-          m_HashGuid:
-            serializedVersion: 2
-            Hash: caae3d82cce06b5644171e7d13a2a62e
-          m_Category: 0
-          m_Index: 57
-        - m_Guid:
-            m_Value0: 3481115972392341445
-            m_Value1: 9538194704204853346
-          m_HashGuid:
-            serializedVersion: 2
-            Hash: c54f627c88684f306270a4468c795e84
-          m_Category: 0
-          m_Index: 58
-        - m_Guid:
-            m_Value0: 9226078374547313228
-            m_Value1: 16182001881538776026
-          m_HashGuid:
-            serializedVersion: 2
-            Hash: 4c52ce58669d0980da4bd2aff90492e0
-          m_Category: 1
-          m_Index: 3
         m_EntryPoint:
           rid: 8271674418125078617
         m_Graph:
@@ -1261,7 +1497,6 @@ MonoBehaviour:
         - rid: 8271674418125078609
         - rid: 8271674418125078612
         - rid: 8271674418125078615
-        - rid: 874784931797795388
         m_Title: 
     - rid: 8271674418125078609
       type: {class: VariableDeclarationModel, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
@@ -1434,7 +1669,7 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: 8f64a3d562c399aa1705e126142a7cbd
         m_Version: 2
-        m_Position: {x: 1029.0382, y: 424.69305}
+        m_Position: {x: 1044.3425, y: 390.6061}
         m_Title: 
         m_Tooltip: 
         m_NodePreviewModel:
@@ -1443,14 +1678,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078625
-          - rid: 8271674418125078627
           - rid: 8271674418125078628
           - rid: 8271674436262559890
+          - rid: 874784936210202884
+          - rid: 874784936210202957
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -1471,10 +1708,6 @@ MonoBehaviour:
       data:
         m_Value: "Today\u2019s the big day. I finally boot up the sample project
           from the framework\u2026"
-    - rid: 8271674418125078627
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 0}
     - rid: 8271674418125078628
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -1501,14 +1734,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078632
-          - rid: 8271674418125078634
           - rid: 8271674418125078635
           - rid: 8271674436262559891
+          - rid: 874784936210202885
+          - rid: 874784936210202958
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -1528,10 +1763,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: ...and something strange happens.
-    - rid: 8271674418125078634
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 0}
     - rid: 8271674418125078635
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -1601,14 +1832,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078643
-          - rid: 8271674418125078645
           - rid: 8271674418125078646
           - rid: 8271674436262559892
+          - rid: 874784936210202886
+          - rid: 874784936210202959
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -1628,10 +1861,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"What is this??"'
-    - rid: 8271674418125078645
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 0}
     - rid: 8271674418125078646
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -1658,14 +1887,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078650
-          - rid: 8271674418125078652
           - rid: 8271674418125078653
           - rid: 8271674436262559893
+          - rid: 874784936210202887
+          - rid: 874784936210202960
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -1685,10 +1916,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: //jump//"Whoa!! A new user??!"
-    - rid: 8271674418125078652
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 8c636d999f90e614d85cf993f7211c1d, type: 3}
     - rid: 8271674418125078653
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -1991,14 +2218,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078667
-          - rid: 8271674418125078669
           - rid: 8271674418125078670
           - rid: 8271674436262559894
+          - rid: 874784936210202888
+          - rid: 874784936210202961
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -2018,10 +2247,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: "\"Oh wow oh wow oh wow\u2014welcome to Graph World!!\" \"shake\""
-    - rid: 8271674418125078669
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 2d9bbc299867e244c98e4a3cb6e7a4bf, type: 3}
     - rid: 8271674418125078670
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -2117,14 +2342,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078804
-          - rid: 8271674418125078806
           - rid: 8271674418125078807
           - rid: 8271674436262559895
+          - rid: 874784936210202889
+          - rid: 874784936210202962
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -2144,10 +2371,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"Another one. Booted straight into runtime again." //slidedown//'
-    - rid: 8271674418125078806
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: ae8b150e3c088b84f879db093e49f80e, type: 3}
     - rid: 8271674418125078807
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -2243,14 +2466,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078813
-          - rid: 8271674418125078815
           - rid: 8271674418125078816
           - rid: 8271674436262559896
+          - rid: 874784936210202890
+          - rid: 874784936210202963
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -2270,10 +2495,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"Figures.." '
-    - rid: 8271674418125078815
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 938e70ce972aab048a4ffac6f77386bb, type: 3}
     - rid: 8271674418125078816
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -2369,14 +2590,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078824
-          - rid: 8271674418125078826
           - rid: 8271674418125078827
           - rid: 8271674436262559897
+          - rid: 874784936210202891
+          - rid: 874784936210202964
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -2397,10 +2620,6 @@ MonoBehaviour:
       data:
         m_Value: "\"You\u2019re probably here to check out the visual novel sample,
           right?\""
-    - rid: 8271674418125078826
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 8c636d999f90e614d85cf993f7211c1d, type: 3}
     - rid: 8271674418125078827
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -2496,14 +2715,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078833
-          - rid: 8271674418125078835
           - rid: 8271674418125078836
           - rid: 8271674436262559898
+          - rid: 874784936210202892
+          - rid: 874784936210202965
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -2523,10 +2744,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"You''re inside it!"'
-    - rid: 8271674418125078835
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 2d9bbc299867e244c98e4a3cb6e7a4bf, type: 3}
     - rid: 8271674418125078836
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -2622,14 +2839,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078842
-          - rid: 8271674418125078844
           - rid: 8271674418125078845
           - rid: 8271674436262559899
+          - rid: 874784936210202893
+          - rid: 874784936210202966
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -2649,10 +2868,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: "\"...I didn\u2019t think it would talk back.\""
-    - rid: 8271674418125078844
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 0}
     - rid: 8271674418125078845
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -2748,14 +2963,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078851
-          - rid: 8271674418125078853
           - rid: 8271674418125078854
           - rid: 8271674436262559900
+          - rid: 874784936210202894
+          - rid: 874784936210202967
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -2775,10 +2992,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"Oh, we do more than that! Watch this!"'
-    - rid: 8271674418125078853
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 2d9bbc299867e244c98e4a3cb6e7a4bf, type: 3}
     - rid: 8271674418125078854
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -2917,14 +3130,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078875
-          - rid: 8271674418125078877
           - rid: 8271674418125078878
           - rid: 8271674436262559901
+          - rid: 874784936210202895
+          - rid: 874784936210202968
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -2944,10 +3159,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"Boom..."'
-    - rid: 8271674418125078877
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 0}
     - rid: 8271674418125078878
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -3086,14 +3297,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078888
-          - rid: 8271674418125078890
           - rid: 8271674418125078891
           - rid: 8271674436262559902
+          - rid: 874784936210202896
+          - rid: 874784936210202969
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -3113,10 +3326,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"...BOOM!"'
-    - rid: 8271674418125078890
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 2d9bbc299867e244c98e4a3cb6e7a4bf, type: 3}
     - rid: 8271674418125078891
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -3212,14 +3421,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078901
-          - rid: 8271674418125078903
           - rid: 8271674418125078904
           - rid: 8271674436262559903
+          - rid: 874784936210202897
+          - rid: 874784936210202970
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -3239,10 +3450,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"Runtime-bound scene transitions! Straight from the graph!"'
-    - rid: 8271674418125078903
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 2d9bbc299867e244c98e4a3cb6e7a4bf, type: 3}
     - rid: 8271674418125078904
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -3338,14 +3545,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078910
-          - rid: 8271674418125078912
           - rid: 8271674418125078913
           - rid: 8271674436262559904
+          - rid: 874784936210202898
+          - rid: 874784936210202971
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -3366,10 +3575,6 @@ MonoBehaviour:
       data:
         m_Value: "\"She\u2019s been buzzing ever since those node-related bugs finally
           got squashed.\""
-    - rid: 8271674418125078912
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 938e70ce972aab048a4ffac6f77386bb, type: 3}
     - rid: 8271674418125078913
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -3465,14 +3670,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078919
-          - rid: 8271674418125078921
           - rid: 8271674418125078922
           - rid: 8271674436262559905
+          - rid: 874784936210202899
+          - rid: 874784936210202972
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -3492,10 +3699,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"We''re here to help you demo!"'
-    - rid: 8271674418125078921
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 8c636d999f90e614d85cf993f7211c1d, type: 3}
     - rid: 8271674418125078922
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -3591,14 +3794,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078928
-          - rid: 8271674418125078930
           - rid: 8271674418125078931
           - rid: 8271674436262559906
+          - rid: 874784936210202900
+          - rid: 874784936210202973
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -3618,10 +3823,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"Runtime-accurate, editor-defined! You get it, right?!"'
-    - rid: 8271674418125078930
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 8c636d999f90e614d85cf993f7211c1d, type: 3}
     - rid: 8271674418125078931
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -3717,14 +3918,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078937
-          - rid: 8271674418125078939
           - rid: 8271674418125078940
           - rid: 8271674436262559907
+          - rid: 874784936210202901
+          - rid: 874784936210202974
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -3744,10 +3947,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"Just... walk them through it."'
-    - rid: 8271674418125078939
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 938e70ce972aab048a4ffac6f77386bb, type: 3}
     - rid: 8271674418125078940
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -3843,14 +4042,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078946
-          - rid: 8271674418125078948
           - rid: 8271674418125078949
           - rid: 8271674436262559908
+          - rid: 874784936210202902
+          - rid: 874784936210202975
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -3870,10 +4071,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"Clean signals. No spaghetti."'
-    - rid: 8271674418125078948
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: ae8b150e3c088b84f879db093e49f80e, type: 3}
     - rid: 8271674418125078949
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -3969,14 +4166,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078955
-          - rid: 8271674418125078957
           - rid: 8271674418125078958
           - rid: 8271674436262559909
+          - rid: 874784936210202903
+          - rid: 874784936210202976
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -3996,10 +4195,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"...You know this is just a sample, right?"'
-    - rid: 8271674418125078957
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 0}
     - rid: 8271674418125078958
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -4095,14 +4290,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078964
-          - rid: 8271674418125078966
           - rid: 8271674418125078967
           - rid: 8271674436262559910
+          - rid: 874784936210202904
+          - rid: 874784936210202977
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -4123,10 +4320,6 @@ MonoBehaviour:
       data:
         m_Value: '"Shhh! Let him have his flow state. He gets like this when the
           wiring''s clean."'
-    - rid: 8271674418125078966
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 2d9bbc299867e244c98e4a3cb6e7a4bf, type: 3}
     - rid: 8271674418125078967
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -4222,14 +4415,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078973
-          - rid: 8271674418125078975
           - rid: 8271674418125078976
           - rid: 8271674436262559911
+          - rid: 874784936210202905
+          - rid: 874784936210202978
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -4249,10 +4444,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"Finish the demo. Run the tool. Keep the graph tidy."'
-    - rid: 8271674418125078975
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: ae8b150e3c088b84f879db093e49f80e, type: 3}
     - rid: 8271674418125078976
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -4348,14 +4539,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078982
-          - rid: 8271674418125078984
           - rid: 8271674418125078985
           - rid: 8271674436262559912
+          - rid: 874784936210202906
+          - rid: 874784936210202979
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -4375,10 +4568,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: "\"Let\u2019s show them how fun dev tools can be!\""
-    - rid: 8271674418125078984
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 8c636d999f90e614d85cf993f7211c1d, type: 3}
     - rid: 8271674418125078985
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -4474,14 +4663,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125078991
-          - rid: 8271674418125078993
           - rid: 8271674418125078994
           - rid: 8271674436262559913
+          - rid: 874784936210202907
+          - rid: 874784936210202980
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -4501,10 +4692,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: "\u201CTO THE FRAMEWORK!\u201D"
-    - rid: 8271674418125078993
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 2d9bbc299867e244c98e4a3cb6e7a4bf, type: 3}
     - rid: 8271674418125078994
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -4600,14 +4787,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125079000
-          - rid: 8271674418125079002
           - rid: 8271674418125079003
           - rid: 8271674436262559914
+          - rid: 874784936210202908
+          - rid: 874784936210202981
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -4627,10 +4816,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"Sigh. To the framework."'
-    - rid: 8271674418125079002
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: 938e70ce972aab048a4ffac6f77386bb, type: 3}
     - rid: 8271674418125079003
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -4726,14 +4911,16 @@ MonoBehaviour:
         m_InputConstantsById:
           m_KeyList:
           - Dialogue
-          - ActorSprite
           - ActorName
           - ActorLocation
+          - ActorExpression
+          - ActorProfile
           m_ValueList:
           - rid: 8271674418125079212
-          - rid: 8271674418125079214
           - rid: 8271674418125079215
           - rid: 8271674436262559915
+          - rid: 874784936210202909
+          - rid: 874784936210202982
         m_InputPortInfos:
           expandedPortsById:
             m_KeyList: []
@@ -4753,10 +4940,6 @@ MonoBehaviour:
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: '"We''re not just part of it. We are it. Nodes. Wires."'
-    - rid: 8271674418125079214
-      type: {class: 'Constant`1[[UnityEngine.Sprite, UnityEngine.CoreModule]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value: {fileID: 21300000, guid: ae8b150e3c088b84f879db093e49f80e, type: 3}
     - rid: 8271674418125079215
       type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0b5b9e14ebcfa43aaa1a2a9eeb7b76, type: 3}
+  m_Name: CharacterProfile
+  m_EditorClassIdentifier: Unity.GraphToolkit.Samples.VisualNovelDirector::VN_FrameWork.CharacterProfile
+  characterName: Ieva
+  characterColor: {r: 0.7819176, g: 0.40272692, b: 0.86415094, a: 1}
+  characterSprites:
+  - {fileID: 21300000, guid: 29fa2745391d8c74d8b1cecf68b85701, type: 3}

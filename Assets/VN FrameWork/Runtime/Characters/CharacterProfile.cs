@@ -1,4 +1,6 @@
-﻿
+﻿// 12/13/2025 AI-Tag
+// This was created with the help of Assistant, a Unity Artificial Intelligence product.
+
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,5 +12,15 @@ namespace VN_FrameWork
         public string characterName;
         public Color characterColor = Color.white;
         public List<Sprite> characterSprites;
+
+        public enum ActorExpression
+        {
+            Neutral,
+            Happy,
+            Sad,
+            Angry,
+            Surprised,
+            Thinking
+        }
     }
 }

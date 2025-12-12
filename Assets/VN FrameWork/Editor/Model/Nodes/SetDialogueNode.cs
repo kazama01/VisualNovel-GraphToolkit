@@ -1,5 +1,12 @@
+// 12/13/2025 AI-Tag
+// This was created with the help of Assistant, a Unity Artificial Intelligence product.
+
+// 12/13/2025 AI-Tag
+// This was created with the help of Assistant, a Unity Artificial Intelligence product.
+
 using System;
 using UnityEngine;
+using VN_FrameWork;
 
 namespace Unity.GraphToolkit.Samples.VisualNovelDirector.Editor
 {
@@ -13,9 +20,10 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector.Editor
     internal class SetDialogueNode : VisualNovelNode
     {
         public const string IN_PORT_ACTOR_NAME_NAME = "ActorName";
-        public const string IN_PORT_ACTOR_SPRITE_NAME = "ActorSprite";
+        public const string IN_PORT_ACTOR_PROFILE_NAME = "ActorProfile"; // Updated to ActorProfile
         public const string IN_PORT_LOCATION_NAME = "ActorLocation";
         public const string IN_PORT_DIALOGUE_NAME = "Dialogue";
+        public const string IN_PORT_EXPRESSION_NAME = "ActorExpression";
 
         public enum Location
         {
@@ -34,15 +42,17 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector.Editor
             context.AddInputPort<string>(IN_PORT_ACTOR_NAME_NAME)
                 .WithDisplayName("Actor Name")
                 .Build();
-            context.AddInputPort<Sprite>(IN_PORT_ACTOR_SPRITE_NAME)
-                .WithDisplayName("Actor Sprite")
+            context.AddInputPort<CharacterProfile>(IN_PORT_ACTOR_PROFILE_NAME) // Updated to CharacterProfile
+                .WithDisplayName("Actor Profile") // Updated display name
                 .Build();
             context.AddInputPort<Location>(IN_PORT_LOCATION_NAME)
                 .WithDisplayName("Actor Location")
                 .Build();
+            context.AddInputPort<CharacterProfile.ActorExpression>(IN_PORT_EXPRESSION_NAME)
+                .WithDisplayName("Actor Expression")
+                .Build();
             context.AddInputPort<string>(IN_PORT_DIALOGUE_NAME)
                 .Build();
-   
         }
     }
 }

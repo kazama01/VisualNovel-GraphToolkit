@@ -118,10 +118,12 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector.Editor
                     returnedNodes.Add(new SetDialogueRuntimeNode
                     {
                         ActorName = GetInputPortValue<string>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_ACTOR_NAME_NAME)),
-                        ActorSprite = GetInputPortValue<Sprite>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_ACTOR_SPRITE_NAME)),
+                        ActorProfile = GetInputPortValue<CharacterProfile>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_ACTOR_PROFILE_NAME)), // Use ActorProfile instead of ActorSprite
+                        ActorExpression = GetInputPortValue<CharacterProfile.ActorExpression>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_EXPRESSION_NAME)), // Add ActorExpression
                         LocationIndex = (int)GetInputPortValue<SetDialogueNode.Location>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_LOCATION_NAME)),
                         DialogueText = GetInputPortValue<string>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_DIALOGUE_NAME))
                     });
+                  
 
                     // Insert a WaitForInputNode after dialogue to create the expected visual novel behaviour.
                     // This ensures narrative flow pauses until the player signals readiness to continue.

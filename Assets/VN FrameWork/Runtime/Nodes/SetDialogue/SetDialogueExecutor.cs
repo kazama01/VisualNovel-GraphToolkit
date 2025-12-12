@@ -15,19 +15,18 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
 {
     public class SetDialogueExecutor : IVisualNovelNodeExecutor<SetDialogueRuntimeNode>, IVisualNovelNodeExecutor<SetDialogueRuntimeNodeWithPreviousActor>
     {
-        private static readonly Regex DialogueFormatRegex = new Regex(@"^(?<name>[^()]+)(?:\\((?<expression>[^\\)]+)\\))?:\\s*(?<text>.+)$");
+        private static readonly Regex DialogueFormatRegex = new Regex(@"^(?<name>[^()]+)(?:\\\\\\\\((?<expression>[^\\\\\\\\)]+)\\\\\\\\))?:\\\\\\\\s*(?<text>.+)$");
 
         public async Task ExecuteAsync(SetDialogueRuntimeNode runtimeNode, VisualNovelDirector ctx)
         {
-            await ExecuteDialogue(runtimeNode.ActorName, runtimeNode.ActorSprite, runtimeNode.DialogueText, runtimeNode.LocationIndex, ctx);
+            Sprite actorSprite = runtimeNode.GetActorSprite(); // Use the GetActorSprite method
+            await ExecuteDialogue(runtimeNode.ActorName, actorSprite, runtimeNode.DialogueText, runtimeNode.LocationIndex, ctx);
         }
 
         public async Task ExecuteAsync(SetDialogueRuntimeNodeWithPreviousActor runtimeNode, VisualNovelDirector ctx)
         {
             await ExecuteDialogue(null, null, runtimeNode.DialogueText, -1, ctx);
         }
-
-       
 
         private static async Task ExecuteDialogue(string actorName, Sprite actorSprite, string dialogueText, int locationIndex, VisualNovelDirector ctx)
         {
