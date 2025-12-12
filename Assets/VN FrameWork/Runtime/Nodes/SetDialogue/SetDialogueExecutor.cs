@@ -13,7 +13,7 @@ using UnityEngine.UI;
 
 namespace Unity.GraphToolkit.Samples.VisualNovelDirector
 {
-    public class SetDialogueExecutor : IVisualNovelNodeExecutor<SetDialogueRuntimeNode>, IVisualNovelNodeExecutor<SetDialogueRuntimeNodeWithPreviousActor>, IVisualNovelNodeExecutor<ConversationRuntimeNode>
+    public class SetDialogueExecutor : IVisualNovelNodeExecutor<SetDialogueRuntimeNode>, IVisualNovelNodeExecutor<SetDialogueRuntimeNodeWithPreviousActor>
     {
         private static readonly Regex DialogueFormatRegex = new Regex(@"^(?<name>[^()]+)(?:\\((?<expression>[^\\)]+)\\))?:\\s*(?<text>.+)$");
 
@@ -27,62 +27,7 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
             await ExecuteDialogue(null, null, runtimeNode.DialogueText, -1, ctx);
         }
 
-        public async Task ExecuteAsync(ConversationRuntimeNode runtimeNode, VisualNovelDirector ctx)
-        {
-            // Read the dialogue text from the script text box or script file
-            string dialogueText = runtimeNode.ScriptText;
-            if (runtimeNode.ScriptFile != null)
-            {
-                dialogueText = runtimeNode.ScriptFile.text;
-            }
-
-            if (string.IsNullOrEmpty(dialogueText))
-            {
-                ctx.DialoguePanel.SetActive(false);
-                return;
-            }
-
-            // Split the dialogue into lines
-            var lines = dialogueText.Split(new[] { "\\n" }, StringSplitOptions.RemoveEmptyEntries);
-
-            foreach (var line in lines)
-            {
-                var match = DialogueFormatRegex.Match(line);
-                if (!match.Success)
-                {
-                    Debug.LogWarning($"Invalid dialogue format: {line}");
-                    continue;
-                }
-
-                var name = match.Groups["name"].Value.Trim();
-                var expression = match.Groups["expression"].Success ? match.Groups["expression"].Value.Trim() : null;
-                var text = match.Groups["text"].Value.Trim();
-
-                // Set character profile data
-                if (runtimeNode.CharacterProfile != null)
-                {
-                    ctx.ActorNameText.text = name;
-                    ctx.ActorNameText.color = runtimeNode.CharacterProfile.characterColor;
-
-                    if (runtimeNode.CharacterProfile.characterSprites != null && runtimeNode.CharacterProfile.characterSprites.Count > 0)
-                    {
-                        var sprite = runtimeNode.CharacterProfile.characterSprites.Find(s => s.name.Equals(expression, StringComparison.OrdinalIgnoreCase));
-                        if (sprite != null)
-                        {
-                            ctx.ActorLocationList[0].sprite = sprite; // Use the first location for the actor
-                            ctx.ActorLocationList[0].enabled = true;
-                        }
-                        else
-                        {
-                            ctx.ActorLocationList[0].enabled = false;
-                        }
-                    }
-                }
-
-                // Play the dialogue line
-                await TypeTextWithSkipAsync(text, ctx);
-            }
-        }
+       
 
         private static async Task ExecuteDialogue(string actorName, Sprite actorSprite, string dialogueText, int locationIndex, VisualNovelDirector ctx)
         {
