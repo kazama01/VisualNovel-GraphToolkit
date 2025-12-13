@@ -1,26 +1,26 @@
-﻿// 12/13/2025 AI-Tag
-// This was created with the help of Assistant, a Unity Artificial Intelligence product.
-
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
+using VN_FrameWork;
 
 namespace VN_FrameWork
 {
+    [System.Serializable]
+    public class Expression
+    {
+        public ActorExpression expression;
+        public Sprite sprite;
+    }
+
     [CreateAssetMenu(fileName = "CharacterProfile", menuName = "VN_FrameWork/CharacterProfile", order = 1)]
     public class CharacterProfile : ScriptableObject
     {
         public string characterName;
         public Color characterColor = Color.white;
-        public List<Sprite> characterSprites;
+        public List<Expression> expressions = new List<Expression>();
 
-        public enum ActorExpression
+        public Sprite GetSprite(ActorExpression expression)
         {
-            Neutral,
-            Happy,
-            Sad,
-            Angry,
-            Surprised,
-            Thinking
+            return expressions.Find(e => e.expression == expression)?.sprite;
         }
     }
 }

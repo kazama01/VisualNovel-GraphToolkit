@@ -4,6 +4,7 @@
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
+using VN_FrameWork;
 
 namespace Unity.GraphToolkit.Samples.VisualNovelDirector
 {
@@ -46,9 +47,9 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
                 location.enabled = false;
 
             Image actorImage = null;
-            if (runtimeNode.GetActorSprite() != null && runtimeNode.LocationIndex >= 0 && runtimeNode.LocationIndex < ctx.ActorLocationList.Count)
+            if (runtimeNode.GetActorSprite() != null && (int)runtimeNode.Location >= 0 && (int)runtimeNode.Location < ctx.ActorLocationList.Count)
             {
-                actorImage = ctx.ActorLocationList[runtimeNode.LocationIndex];
+                actorImage = ctx.ActorLocationList[(int)runtimeNode.Location];
                 actorImage.enabled = true;
                 actorImage.sprite = runtimeNode.GetActorSprite();
 
@@ -58,16 +59,16 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
                     animator = actorImage.gameObject.AddComponent<SpriteAnimator>();
                 }
 
-                if (runtimeNode.IsSpeaker && runtimeNode.EntryEffect != SetDialogueRuntimeNode.SpriteEffect.None)
+                if (runtimeNode.IsSpeaker && runtimeNode.EntryEffect != SpriteEffect.None)
                 {
                     animator.PlayEffect(runtimeNode.EntryEffect, runtimeNode.EffectSpeed);
                 }
             }
             
             Image actor2Image = null;
-            if (runtimeNode.GetActor2Sprite() != null && runtimeNode.Location2Index >= 0 && runtimeNode.Location2Index < ctx.ActorLocationList.Count)
+            if (runtimeNode.GetActor2Sprite() != null && (int)runtimeNode.Location2 >= 0 && (int)runtimeNode.Location2 < ctx.ActorLocationList.Count)
             {
-                actor2Image = ctx.ActorLocationList[runtimeNode.Location2Index];
+                actor2Image = ctx.ActorLocationList[(int)runtimeNode.Location2];
                 actor2Image.enabled = true;
                 actor2Image.sprite = runtimeNode.GetActor2Sprite();
 
@@ -77,7 +78,7 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
                     animator = actor2Image.gameObject.AddComponent<SpriteAnimator>();
                 }
 
-                if (runtimeNode.IsSpeaker2 && runtimeNode.EntryEffect2 != SetDialogueRuntimeNode.SpriteEffect.None)
+                if (runtimeNode.IsSpeaker2 && runtimeNode.EntryEffect2 != SpriteEffect.None)
                 {
                     animator.PlayEffect(runtimeNode.EntryEffect2, runtimeNode.EffectSpeed2);
                 }

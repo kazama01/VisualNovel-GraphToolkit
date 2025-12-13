@@ -3,6 +3,7 @@
 
 using UnityEngine;
 using System.Collections;
+using VN_FrameWork;
 
 namespace Unity.GraphToolkit.Samples.VisualNovelDirector
 {
@@ -21,32 +22,32 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
             originalPosition = transform.position;
         }
 
-        public void PlayEffect(SetDialogueRuntimeNode.SpriteEffect effect, float speed)
+        public void PlayEffect(SpriteEffect effect, float speed)
         {
             switch (effect)
             {
-                case SetDialogueRuntimeNode.SpriteEffect.FadeIn:
+                case SpriteEffect.FadeIn:
                     StartCoroutine(Fade(true, speed));
                     break;
-                case SetDialogueRuntimeNode.SpriteEffect.FadeOut:
+                case SpriteEffect.FadeOut:
                     StartCoroutine(Fade(false, speed));
                     break;
-                case SetDialogueRuntimeNode.SpriteEffect.Jump:
+                case SpriteEffect.Jump:
                     StartCoroutine(Jump(speed));
                     break;
-                case SetDialogueRuntimeNode.SpriteEffect.Shake:
+                case SpriteEffect.Shake:
                     StartCoroutine(Shake(speed));
                     break;
-                case SetDialogueRuntimeNode.SpriteEffect.ExitLeft:
+                case SpriteEffect.ExitLeft:
                     StartCoroutine(MoveOut(true, speed));
                     break;
-                case SetDialogueRuntimeNode.SpriteEffect.ExitRight:
+                case SpriteEffect.ExitRight:
                     StartCoroutine(MoveOut(false, speed));
                     break;
-                case SetDialogueRuntimeNode.SpriteEffect.SlideDown:
+                case SpriteEffect.SlideDown:
                     StartCoroutine(SlideDown(speed));
                     break;
-                case SetDialogueRuntimeNode.SpriteEffect.Bop:
+                case SpriteEffect.Bop:
                     StartCoroutine(Bop(speed));
                     break;
             }

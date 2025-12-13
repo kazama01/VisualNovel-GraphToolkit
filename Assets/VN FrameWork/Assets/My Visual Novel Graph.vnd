@@ -787,19 +787,6 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675075
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 3
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675076
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -813,19 +800,6 @@ MonoBehaviour:
               Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
               PublicKeyToken=null
           m_Value: 8
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675078
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 4
         m_EnumType:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
@@ -847,37 +821,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675081
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 8
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675082
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675083
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675084
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -907,37 +855,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675087
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675088
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675089
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675090
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -967,37 +889,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675093
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675094
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675095
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675096
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -1027,37 +923,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675099
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675100
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675101
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675102
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -1087,37 +957,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675105
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675106
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675107
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675108
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -1147,37 +991,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675111
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675112
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675113
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675114
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -1207,37 +1025,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675117
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675118
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675119
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675120
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -1267,37 +1059,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675123
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675124
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675125
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675126
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -1327,37 +1093,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675129
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675130
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675131
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675132
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -1387,37 +1127,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675135
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675136
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675137
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675138
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -1447,37 +1161,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675141
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675142
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675143
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675144
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -1507,37 +1195,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675147
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675148
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675149
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675150
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -2633,37 +2295,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675428
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675429
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675430
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675431
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -2693,19 +2329,6 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675434
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675435
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -2723,37 +2346,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675437
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 3
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675438
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675439
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675440
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -2783,37 +2380,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675443
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675444
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675445
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675446
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -2843,37 +2414,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675449
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675450
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675451
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675452
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -2903,37 +2448,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675455
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675456
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675457
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675458
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -2963,37 +2482,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675461
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675462
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675463
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675464
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -3023,37 +2516,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675467
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675468
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675469
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675470
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -3083,37 +2550,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675473
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675474
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675475
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675476
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -3143,37 +2584,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675479
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675480
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675481
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675482
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -3203,37 +2618,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675485
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675486
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675487
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675488
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -3263,37 +2652,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675491
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675492
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675493
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675494
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -3323,19 +2686,6 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675497
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675498
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
@@ -3353,37 +2703,11 @@ MonoBehaviour:
           m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
             Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
-    - rid: 874784952172675500
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
     - rid: 874784952172675501
       type: {class: 'Constant`1[[System.Single, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value: 1
     - rid: 874784952172675502
-      type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
-      data:
-        m_Value:
-          m_EnumType:
-            m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-              Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-              PublicKeyToken=null
-          m_Value: 0
-        m_EnumType:
-          m_Identification: Unity.GraphToolkit.Samples.VisualNovelDirector.SetDialogueRuntimeNode+SpriteEffect,
-            Unity.GraphToolkit.Samples.VisualNovelDirector, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-    - rid: 874784952172675503
       type: {class: EnumConstant, ns: Unity.GraphToolkit.Editor, asm: Unity.GraphToolkit.Internal.Editor}
       data:
         m_Value:
@@ -3535,9 +2859,9 @@ MonoBehaviour:
         m_LastKnownBounds:
           serializedVersion: 2
           x: 375.2
-          y: 254.4
+          y: 227.20001
           width: 12175.2
-          height: 687.19995
+          height: 666.39996
         m_GraphElementMetaData:
         - m_Guid:
             m_Value0: 919800364044898610
@@ -4634,7 +3958,7 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: 8f64a3d562c399aa1705e126142a7cbd
         m_Version: 2
-        m_Position: {x: 1002.0226, y: 408.59207}
+        m_Position: {x: 983.62256, y: 401.23212}
         m_Title: 
         m_Tooltip: 
         m_NodePreviewModel:
@@ -4647,14 +3971,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078625
@@ -4662,14 +3984,12 @@ MonoBehaviour:
           - rid: 874784947420267385
           - rid: 874784947420267386
           - rid: 874784952172675074
-          - rid: 874784952172675075
           - rid: 874784952172675076
           - rid: 874784952172675230
           - rid: 874784952172675231
           - rid: 874784952172675294
           - rid: 874784952172675334
           - rid: 874784952172675427
-          - rid: 874784952172675428
           - rid: 874784952172675429
         m_InputPortInfos:
           expandedPortsById:
@@ -4717,14 +4037,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078632
@@ -4732,14 +4050,12 @@ MonoBehaviour:
           - rid: 874784947420267389
           - rid: 874784947420267390
           - rid: 874784952172675077
-          - rid: 874784952172675078
           - rid: 874784952172675079
           - rid: 874784952172675232
           - rid: 874784952172675233
           - rid: 874784952172675295
           - rid: 874784952172675335
           - rid: 874784952172675430
-          - rid: 874784952172675431
           - rid: 874784952172675432
         m_InputPortInfos:
           expandedPortsById:
@@ -4773,7 +4089,7 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: 1e387af169cecaec93486c1533fd024f
         m_Version: 2
-        m_Position: {x: 1815.002, y: 254.5762}
+        m_Position: {x: 1959.9482, y: 227.06819}
         m_Title: 
         m_Tooltip: 
         m_NodePreviewModel:
@@ -4829,14 +4145,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078643
@@ -4844,14 +4158,12 @@ MonoBehaviour:
           - rid: 874784947420267393
           - rid: 874784947420267394
           - rid: 874784952172675080
-          - rid: 874784952172675081
           - rid: 874784952172675082
           - rid: 874784952172675234
           - rid: 874784952172675235
           - rid: 874784952172675296
           - rid: 874784952172675336
           - rid: 874784952172675433
-          - rid: 874784952172675434
           - rid: 874784952172675435
         m_InputPortInfos:
           expandedPortsById:
@@ -4898,14 +4210,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078650
@@ -4913,14 +4223,12 @@ MonoBehaviour:
           - rid: 874784947420267397
           - rid: 874784947420267398
           - rid: 874784952172675083
-          - rid: 874784952172675084
           - rid: 874784952172675085
           - rid: 874784952172675236
           - rid: 874784952172675237
           - rid: 874784952172675297
           - rid: 874784952172675337
           - rid: 874784952172675436
-          - rid: 874784952172675437
           - rid: 874784952172675438
         m_InputPortInfos:
           expandedPortsById:
@@ -5110,14 +4418,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078667
@@ -5125,14 +4431,12 @@ MonoBehaviour:
           - rid: 874784947420267401
           - rid: 874784947420267402
           - rid: 874784952172675086
-          - rid: 874784952172675087
           - rid: 874784952172675088
           - rid: 874784952172675238
           - rid: 874784952172675239
           - rid: 874784952172675298
           - rid: 874784952172675338
           - rid: 874784952172675439
-          - rid: 874784952172675440
           - rid: 874784952172675441
         m_InputPortInfos:
           expandedPortsById:
@@ -5248,14 +4552,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078804
@@ -5263,14 +4565,12 @@ MonoBehaviour:
           - rid: 874784947420267405
           - rid: 874784947420267406
           - rid: 874784952172675089
-          - rid: 874784952172675090
           - rid: 874784952172675091
           - rid: 874784952172675240
           - rid: 874784952172675241
           - rid: 874784952172675299
           - rid: 874784952172675339
           - rid: 874784952172675442
-          - rid: 874784952172675443
           - rid: 874784952172675444
         m_InputPortInfos:
           expandedPortsById:
@@ -5386,14 +4686,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078813
@@ -5401,14 +4699,12 @@ MonoBehaviour:
           - rid: 874784947420267409
           - rid: 874784947420267410
           - rid: 874784952172675092
-          - rid: 874784952172675093
           - rid: 874784952172675094
           - rid: 874784952172675242
           - rid: 874784952172675243
           - rid: 874784952172675300
           - rid: 874784952172675340
           - rid: 874784952172675445
-          - rid: 874784952172675446
           - rid: 874784952172675447
         m_InputPortInfos:
           expandedPortsById:
@@ -5524,14 +4820,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078824
@@ -5539,14 +4833,12 @@ MonoBehaviour:
           - rid: 874784947420267413
           - rid: 874784947420267414
           - rid: 874784952172675095
-          - rid: 874784952172675096
           - rid: 874784952172675097
           - rid: 874784952172675244
           - rid: 874784952172675245
           - rid: 874784952172675301
           - rid: 874784952172675341
           - rid: 874784952172675448
-          - rid: 874784952172675449
           - rid: 874784952172675450
         m_InputPortInfos:
           expandedPortsById:
@@ -5663,14 +4955,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078833
@@ -5678,14 +4968,12 @@ MonoBehaviour:
           - rid: 874784947420267417
           - rid: 874784947420267418
           - rid: 874784952172675098
-          - rid: 874784952172675099
           - rid: 874784952172675100
           - rid: 874784952172675246
           - rid: 874784952172675247
           - rid: 874784952172675302
           - rid: 874784952172675342
           - rid: 874784952172675451
-          - rid: 874784952172675452
           - rid: 874784952172675453
         m_InputPortInfos:
           expandedPortsById:
@@ -5801,14 +5089,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078842
@@ -5816,14 +5102,12 @@ MonoBehaviour:
           - rid: 874784947420267421
           - rid: 874784947420267422
           - rid: 874784952172675101
-          - rid: 874784952172675102
           - rid: 874784952172675103
           - rid: 874784952172675248
           - rid: 874784952172675249
           - rid: 874784952172675303
           - rid: 874784952172675343
           - rid: 874784952172675454
-          - rid: 874784952172675455
           - rid: 874784952172675456
         m_InputPortInfos:
           expandedPortsById:
@@ -5939,14 +5223,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078851
@@ -5954,14 +5236,12 @@ MonoBehaviour:
           - rid: 874784947420267425
           - rid: 874784947420267426
           - rid: 874784952172675104
-          - rid: 874784952172675105
           - rid: 874784952172675106
           - rid: 874784952172675250
           - rid: 874784952172675251
           - rid: 874784952172675304
           - rid: 874784952172675344
           - rid: 874784952172675457
-          - rid: 874784952172675458
           - rid: 874784952172675459
         m_InputPortInfos:
           expandedPortsById:
@@ -6120,14 +5400,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078875
@@ -6135,14 +5413,12 @@ MonoBehaviour:
           - rid: 874784947420267429
           - rid: 874784947420267430
           - rid: 874784952172675107
-          - rid: 874784952172675108
           - rid: 874784952172675109
           - rid: 874784952172675252
           - rid: 874784952172675253
           - rid: 874784952172675305
           - rid: 874784952172675345
           - rid: 874784952172675460
-          - rid: 874784952172675461
           - rid: 874784952172675462
         m_InputPortInfos:
           expandedPortsById:
@@ -6301,14 +5577,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078888
@@ -6316,14 +5590,12 @@ MonoBehaviour:
           - rid: 874784947420267433
           - rid: 874784947420267434
           - rid: 874784952172675110
-          - rid: 874784952172675111
           - rid: 874784952172675112
           - rid: 874784952172675254
           - rid: 874784952172675255
           - rid: 874784952172675306
           - rid: 874784952172675346
           - rid: 874784952172675463
-          - rid: 874784952172675464
           - rid: 874784952172675465
         m_InputPortInfos:
           expandedPortsById:
@@ -6439,14 +5711,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078901
@@ -6454,14 +5724,12 @@ MonoBehaviour:
           - rid: 874784947420267437
           - rid: 874784947420267438
           - rid: 874784952172675113
-          - rid: 874784952172675114
           - rid: 874784952172675115
           - rid: 874784952172675256
           - rid: 874784952172675257
           - rid: 874784952172675307
           - rid: 874784952172675347
           - rid: 874784952172675466
-          - rid: 874784952172675467
           - rid: 874784952172675468
         m_InputPortInfos:
           expandedPortsById:
@@ -6577,14 +5845,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078910
@@ -6592,14 +5858,12 @@ MonoBehaviour:
           - rid: 874784947420267441
           - rid: 874784947420267442
           - rid: 874784952172675116
-          - rid: 874784952172675117
           - rid: 874784952172675118
           - rid: 874784952172675258
           - rid: 874784952172675259
           - rid: 874784952172675308
           - rid: 874784952172675348
           - rid: 874784952172675469
-          - rid: 874784952172675470
           - rid: 874784952172675471
         m_InputPortInfos:
           expandedPortsById:
@@ -6716,14 +5980,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078919
@@ -6731,14 +5993,12 @@ MonoBehaviour:
           - rid: 874784947420267445
           - rid: 874784947420267446
           - rid: 874784952172675119
-          - rid: 874784952172675120
           - rid: 874784952172675121
           - rid: 874784952172675260
           - rid: 874784952172675261
           - rid: 874784952172675309
           - rid: 874784952172675349
           - rid: 874784952172675472
-          - rid: 874784952172675473
           - rid: 874784952172675474
         m_InputPortInfos:
           expandedPortsById:
@@ -6854,14 +6114,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078928
@@ -6869,14 +6127,12 @@ MonoBehaviour:
           - rid: 874784947420267449
           - rid: 874784947420267450
           - rid: 874784952172675122
-          - rid: 874784952172675123
           - rid: 874784952172675124
           - rid: 874784952172675262
           - rid: 874784952172675263
           - rid: 874784952172675310
           - rid: 874784952172675350
           - rid: 874784952172675475
-          - rid: 874784952172675476
           - rid: 874784952172675477
         m_InputPortInfos:
           expandedPortsById:
@@ -6992,14 +6248,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078937
@@ -7007,14 +6261,12 @@ MonoBehaviour:
           - rid: 874784947420267453
           - rid: 874784947420267454
           - rid: 874784952172675125
-          - rid: 874784952172675126
           - rid: 874784952172675127
           - rid: 874784952172675264
           - rid: 874784952172675265
           - rid: 874784952172675311
           - rid: 874784952172675351
           - rid: 874784952172675478
-          - rid: 874784952172675479
           - rid: 874784952172675480
         m_InputPortInfos:
           expandedPortsById:
@@ -7130,14 +6382,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078946
@@ -7145,14 +6395,12 @@ MonoBehaviour:
           - rid: 874784947420267457
           - rid: 874784947420267458
           - rid: 874784952172675128
-          - rid: 874784952172675129
           - rid: 874784952172675130
           - rid: 874784952172675266
           - rid: 874784952172675267
           - rid: 874784952172675312
           - rid: 874784952172675352
           - rid: 874784952172675481
-          - rid: 874784952172675482
           - rid: 874784952172675483
         m_InputPortInfos:
           expandedPortsById:
@@ -7268,14 +6516,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078955
@@ -7283,14 +6529,12 @@ MonoBehaviour:
           - rid: 874784947420267461
           - rid: 874784947420267462
           - rid: 874784952172675131
-          - rid: 874784952172675132
           - rid: 874784952172675133
           - rid: 874784952172675268
           - rid: 874784952172675269
           - rid: 874784952172675313
           - rid: 874784952172675353
           - rid: 874784952172675484
-          - rid: 874784952172675485
           - rid: 874784952172675486
         m_InputPortInfos:
           expandedPortsById:
@@ -7406,14 +6650,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078964
@@ -7421,14 +6663,12 @@ MonoBehaviour:
           - rid: 874784947420267465
           - rid: 874784947420267466
           - rid: 874784952172675134
-          - rid: 874784952172675135
           - rid: 874784952172675136
           - rid: 874784952172675270
           - rid: 874784952172675271
           - rid: 874784952172675314
           - rid: 874784952172675354
           - rid: 874784952172675487
-          - rid: 874784952172675488
           - rid: 874784952172675489
         m_InputPortInfos:
           expandedPortsById:
@@ -7545,14 +6785,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078973
@@ -7560,14 +6798,12 @@ MonoBehaviour:
           - rid: 874784947420267469
           - rid: 874784947420267470
           - rid: 874784952172675137
-          - rid: 874784952172675138
           - rid: 874784952172675139
           - rid: 874784952172675272
           - rid: 874784952172675273
           - rid: 874784952172675315
           - rid: 874784952172675355
           - rid: 874784952172675490
-          - rid: 874784952172675491
           - rid: 874784952172675492
         m_InputPortInfos:
           expandedPortsById:
@@ -7683,14 +6919,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078982
@@ -7698,14 +6932,12 @@ MonoBehaviour:
           - rid: 874784947420267473
           - rid: 874784947420267474
           - rid: 874784952172675140
-          - rid: 874784952172675141
           - rid: 874784952172675142
           - rid: 874784952172675274
           - rid: 874784952172675275
           - rid: 874784952172675316
           - rid: 874784952172675356
           - rid: 874784952172675493
-          - rid: 874784952172675494
           - rid: 874784952172675495
         m_InputPortInfos:
           expandedPortsById:
@@ -7821,14 +7053,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125078991
@@ -7836,14 +7066,12 @@ MonoBehaviour:
           - rid: 874784947420267477
           - rid: 874784947420267478
           - rid: 874784952172675143
-          - rid: 874784952172675144
           - rid: 874784952172675145
           - rid: 874784952172675276
           - rid: 874784952172675277
           - rid: 874784952172675317
           - rid: 874784952172675357
           - rid: 874784952172675496
-          - rid: 874784952172675497
           - rid: 874784952172675498
         m_InputPortInfos:
           expandedPortsById:
@@ -7959,14 +7187,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125079000
@@ -7974,14 +7200,12 @@ MonoBehaviour:
           - rid: 874784947420267481
           - rid: 874784947420267482
           - rid: 874784952172675146
-          - rid: 874784952172675147
           - rid: 874784952172675148
           - rid: 874784952172675278
           - rid: 874784952172675279
           - rid: 874784952172675318
           - rid: 874784952172675358
           - rid: 874784952172675499
-          - rid: 874784952172675500
           - rid: 874784952172675501
         m_InputPortInfos:
           expandedPortsById:
@@ -8097,14 +7321,12 @@ MonoBehaviour:
           - ActorLocation
           - ActorExpression
           - EntryEffect
-          - ExitEffect
           - EffectSpeed
           - Actor2Profile
           - Actor2Expression
           - Speaker
           - Actor2Location
           - EntryEffect2
-          - ExitEffect2
           - EffectSpeed2
           m_ValueList:
           - rid: 8271674418125079212
@@ -8112,14 +7334,12 @@ MonoBehaviour:
           - rid: 874784947420267485
           - rid: 874784947420267486
           - rid: 874784952172675149
-          - rid: 874784952172675150
           - rid: 874784952172675151
           - rid: 874784952172675280
           - rid: 874784952172675281
           - rid: 874784952172675319
           - rid: 874784952172675359
           - rid: 874784952172675502
-          - rid: 874784952172675503
           - rid: 874784952172675504
         m_InputPortInfos:
           expandedPortsById:

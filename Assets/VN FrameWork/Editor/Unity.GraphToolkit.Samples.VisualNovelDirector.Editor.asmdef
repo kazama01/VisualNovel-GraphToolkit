@@ -4,9 +4,8 @@
     "references": [
         "Unity.GraphToolkit.Common.Editor",
         "Unity.GraphToolkit.Utility.Editor",
-        "Unity.GraphToolkit.Samples.VisualNovelDirector",
         "Unity.GraphToolkit.Editor",
-        "Unity.GraphToolkit.Blackboard.Editor"
+        "Unity.GraphToolkit.Samples.VisualNovelDirector"
     ],
     "includePlatforms": [
         "Editor"
