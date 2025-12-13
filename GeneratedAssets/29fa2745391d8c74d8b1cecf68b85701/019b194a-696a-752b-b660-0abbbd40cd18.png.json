@@ -1,0 +1,20 @@
+{
+    "asset": "29fa2745391d8c74d8b1cecf68b85701",
+    "fileName": "019b194a-696a-752b-b660-0abbbd40cd18.png",
+    "prompt": "3d, anime, visual novel, sad expression ",
+    "negativePrompt": "",
+    "model": "5b5b2af1-6ea4-4266-b087-cc9f3bf4f450",
+    "modelName": "Flux.1 Dev",
+    "customSeed": -1,
+    "w3CTraceId": "e0a3f3f2d97088b5d4a07fc28d74f822",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

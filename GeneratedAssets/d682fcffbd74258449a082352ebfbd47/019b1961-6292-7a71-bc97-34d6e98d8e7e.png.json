@@ -1,0 +1,20 @@
+{
+    "asset": "d682fcffbd74258449a082352ebfbd47",
+    "fileName": "019b1961-6292-7a71-bc97-34d6e98d8e7e.png",
+    "prompt": "Anime girl bed room, blue archieve style, sci fi, background environment",
+    "negativePrompt": "realistic,humanoid, person",
+    "model": "5b5b2af1-6ea4-4266-b087-cc9f3bf4f450",
+    "modelName": "Flux.1 Dev",
+    "customSeed": -1,
+    "w3CTraceId": "8ad11cd78e056914faa6d2a11bd8476e",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}
