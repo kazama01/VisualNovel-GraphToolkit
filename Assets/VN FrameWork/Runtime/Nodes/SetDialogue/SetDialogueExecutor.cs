@@ -1,12 +1,6 @@
 // 12/13/2025 AI-Tag
 // This was created with the help of Assistant, a Unity Artificial Intelligence product.
 
-// 12/13/2025 AI-Tag
-// This was created with the help of Assistant, a Unity Artificial Intelligence product.
-
-using System;
-using System.Collections.Generic;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,42 +9,58 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
 {
     public class SetDialogueExecutor : IVisualNovelNodeExecutor<SetDialogueRuntimeNode>, IVisualNovelNodeExecutor<SetDialogueRuntimeNodeWithPreviousActor>
     {
-        private static readonly Regex DialogueFormatRegex = new Regex(@"^(?<name>[^()]+)(?:\\\\\\\\((?<expression>[^\\\\\\\\)]+)\\\\\\\\))?:\\\\\\\\s*(?<text>.+)$");
-
         public async Task ExecuteAsync(SetDialogueRuntimeNode runtimeNode, VisualNovelDirector ctx)
         {
-            Sprite actorSprite = runtimeNode.GetActorSprite(); // Use the GetActorSprite method
-            await ExecuteDialogue(runtimeNode.ActorName, actorSprite, runtimeNode.DialogueText, runtimeNode.LocationIndex, ctx);
+            Sprite actorSprite = runtimeNode.GetActorSprite();
+            await ExecuteDialogue(runtimeNode, ctx);
         }
 
         public async Task ExecuteAsync(SetDialogueRuntimeNodeWithPreviousActor runtimeNode, VisualNovelDirector ctx)
         {
-            await ExecuteDialogue(null, null, runtimeNode.DialogueText, -1, ctx);
+            // This node type doesn't have actor information, so we can't apply effects.
+            await TypeTextWithSkipAsync(runtimeNode.DialogueText, ctx);
         }
 
-        private static async Task ExecuteDialogue(string actorName, Sprite actorSprite, string dialogueText, int locationIndex, VisualNovelDirector ctx)
+        private static async Task ExecuteDialogue(SetDialogueRuntimeNode runtimeNode, VisualNovelDirector ctx)
         {
-            if (string.IsNullOrEmpty(dialogueText))
+            if (string.IsNullOrEmpty(runtimeNode.DialogueText))
             {
                 ctx.DialoguePanel.SetActive(false);
                 return;
             }
 
             ctx.DialoguePanel.SetActive(true);
-            ctx.ActorNameText.text = actorName;
+            ctx.ActorNameText.text = runtimeNode.ActorName;
 
             foreach (var location in ctx.ActorLocationList)
                 location.enabled = false;
 
             Image actorImage = null;
-            if (actorSprite != null && locationIndex >= 0 && locationIndex < ctx.ActorLocationList.Count)
+            if (runtimeNode.GetActorSprite() != null && runtimeNode.LocationIndex >= 0 && runtimeNode.LocationIndex < ctx.ActorLocationList.Count)
             {
-                actorImage = ctx.ActorLocationList[locationIndex];
+                actorImage = ctx.ActorLocationList[runtimeNode.LocationIndex];
                 actorImage.enabled = true;
-                actorImage.sprite = actorSprite;
+                actorImage.sprite = runtimeNode.GetActorSprite();
+
+                SpriteAnimator animator = actorImage.GetComponent<SpriteAnimator>();
+                if (animator == null)
+                {
+                    animator = actorImage.gameObject.AddComponent<SpriteAnimator>();
+                }
+
+                if (runtimeNode.EntryEffect != SetDialogueRuntimeNode.SpriteEffect.None)
+                {
+                    animator.PlayEffect(runtimeNode.EntryEffect, runtimeNode.EffectSpeed);
+                }
             }
 
-            await TypeTextWithSkipAsync(dialogueText, ctx);
+            await TypeTextWithSkipAsync(runtimeNode.DialogueText, ctx);
+
+            if (actorImage != null && runtimeNode.ExitEffect != SetDialogueRuntimeNode.SpriteEffect.None)
+            {
+                SpriteAnimator animator = actorImage.GetComponent<SpriteAnimator>();
+                animator.PlayEffect(runtimeNode.ExitEffect, runtimeNode.EffectSpeed);
+            }
         }
 
         private static async Task TypeTextWithSkipAsync(string dialogueText, VisualNovelDirector ctx)
@@ -90,6 +100,7 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
                     if (skipInputDetected.IsCompleted)
                     {
                         label.text = dialogueText;
+                        await Task.Yield(); // Wait a frame to allow the exit effect to start
                         return;
                     }
                     timer += Time.deltaTime;
@@ -98,6 +109,7 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
             }
 
             label.text = dialogueText;
+            await Task.Yield(); // Wait a frame to allow the exit effect to start
         }
     }
 }

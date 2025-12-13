@@ -13,11 +13,29 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
     [Serializable]
     public class SetDialogueRuntimeNode : VisualNovelRuntimeNode
     {
+        public enum SpriteEffect
+        {
+            None,
+            FadeIn,
+            FadeOut,
+            Jump,
+            Shake,
+            ExitLeft,
+            ExitRight,
+            SlideDown,
+            Bop
+        }
+
         public string ActorName;
         public CharacterProfile ActorProfile; // Reference to the ScriptableObject
         public CharacterProfile.ActorExpression ActorExpression; // Enum for expressions
         public int LocationIndex;
         public string DialogueText;
+
+        public SpriteEffect EntryEffect = SpriteEffect.None;
+        public SpriteEffect ExitEffect = SpriteEffect.None;
+        public float EffectSpeed = 1.0f;
+
 
         public Sprite GetActorSprite()
         {
