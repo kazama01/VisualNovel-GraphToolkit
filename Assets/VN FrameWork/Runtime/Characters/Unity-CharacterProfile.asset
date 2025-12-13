@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0b5b9e14ebcfa43aaa1a2a9eeb7b76, type: 3}
+  m_Name: Unity-CharacterProfile
+  m_EditorClassIdentifier: Unity.GraphToolkit.Samples.VisualNovelDirector::VN_FrameWork.CharacterProfile
+  characterName: Unity
+  characterColor: {r: 0.4039216, g: 0.8206329, b: 0.8627451, a: 1}
+  characterSprites:
+  - {fileID: 21300000, guid: 2d9bbc299867e244c98e4a3cb6e7a4bf, type: 3}

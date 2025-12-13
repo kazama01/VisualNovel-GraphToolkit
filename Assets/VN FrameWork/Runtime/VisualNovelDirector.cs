@@ -14,6 +14,7 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
         [Header("Scene References")]
         public Image BackgroundImage;
         public List<Image> ActorLocationList;
+        public List<Image> Actor2LocationList;
         public GameObject DialoguePanel;
         public TextMeshProUGUI DialogueText;
         public TextMeshProUGUI ActorNameText;

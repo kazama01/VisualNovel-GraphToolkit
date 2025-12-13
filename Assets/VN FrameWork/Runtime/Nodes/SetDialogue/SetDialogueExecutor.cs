@@ -31,8 +31,20 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
 
             ctx.DialoguePanel.SetActive(true);
             ctx.ActorNameText.text = runtimeNode.ActorName;
+            
+            if (runtimeNode.IsSpeaker && runtimeNode.ActorProfile != null)
+            {
+                ctx.ActorNameText.color = runtimeNode.ActorProfile.characterColor;
+            }
+            else if (runtimeNode.IsSpeaker2 && runtimeNode.Actor2Profile != null)
+            {
+                ctx.ActorNameText.color = runtimeNode.Actor2Profile.characterColor;
+            }
 
             foreach (var location in ctx.ActorLocationList)
+                location.enabled = false;
+            
+            foreach (var location in ctx.Actor2LocationList)
                 location.enabled = false;
 
             Image actorImage = null;
@@ -48,7 +60,26 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
                     animator = actorImage.gameObject.AddComponent<SpriteAnimator>();
                 }
 
-                if (runtimeNode.EntryEffect != SetDialogueRuntimeNode.SpriteEffect.None)
+                if (runtimeNode.IsSpeaker && runtimeNode.EntryEffect != SetDialogueRuntimeNode.SpriteEffect.None)
+                {
+                    animator.PlayEffect(runtimeNode.EntryEffect, runtimeNode.EffectSpeed);
+                }
+            }
+            
+            Image actor2Image = null;
+            if (runtimeNode.GetActor2Sprite() != null && runtimeNode.Location2Index >= 0 && runtimeNode.Location2Index < ctx.Actor2LocationList.Count)
+            {
+                actor2Image = ctx.Actor2LocationList[runtimeNode.Location2Index];
+                actor2Image.enabled = true;
+                actor2Image.sprite = runtimeNode.GetActor2Sprite();
+
+                SpriteAnimator animator = actor2Image.GetComponent<SpriteAnimator>();
+                if (animator == null)
+                {
+                    animator = actor2Image.gameObject.AddComponent<SpriteAnimator>();
+                }
+
+                if (runtimeNode.IsSpeaker2 && runtimeNode.EntryEffect != SetDialogueRuntimeNode.SpriteEffect.None)
                 {
                     animator.PlayEffect(runtimeNode.EntryEffect, runtimeNode.EffectSpeed);
                 }
@@ -56,9 +87,15 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
 
             await TypeTextWithSkipAsync(runtimeNode.DialogueText, ctx);
 
-            if (actorImage != null && runtimeNode.ExitEffect != SetDialogueRuntimeNode.SpriteEffect.None)
+            if (actorImage != null && runtimeNode.IsSpeaker && runtimeNode.ExitEffect != SetDialogueRuntimeNode.SpriteEffect.None)
             {
                 SpriteAnimator animator = actorImage.GetComponent<SpriteAnimator>();
+                animator.PlayEffect(runtimeNode.ExitEffect, runtimeNode.EffectSpeed);
+            }
+            
+            if (actor2Image != null && runtimeNode.IsSpeaker2 && runtimeNode.ExitEffect != SetDialogueRuntimeNode.SpriteEffect.None)
+            {
+                SpriteAnimator animator = actor2Image.GetComponent<SpriteAnimator>();
                 animator.PlayEffect(runtimeNode.ExitEffect, runtimeNode.EffectSpeed);
             }
         }

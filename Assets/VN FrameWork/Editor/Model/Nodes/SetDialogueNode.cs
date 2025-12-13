@@ -16,7 +16,6 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector.Editor
     [Serializable]
     internal class SetDialogueNode : VisualNovelNode
     {
-        public const string IN_PORT_ACTOR_NAME_NAME = "ActorName";
         public const string IN_PORT_ACTOR_PROFILE_NAME = "ActorProfile"; // Updated to ActorProfile
         public const string IN_PORT_LOCATION_NAME = "ActorLocation";
         public const string IN_PORT_DIALOGUE_NAME = "Dialogue";
@@ -24,11 +23,23 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector.Editor
         public const string IN_PORT_ENTRY_EFFECT_NAME = "EntryEffect";
         public const string IN_PORT_EXIT_EFFECT_NAME = "ExitEffect";
         public const string IN_PORT_EFFECT_SPEED_NAME = "EffectSpeed";
+        
+        public const string IN_PORT_ACTOR_2_PROFILE_NAME = "Actor2Profile";
+        public const string IN_PORT_ACTOR_2_EXPRESSION_NAME = "Actor2Expression";
+        public const string IN_PORT_ACTOR_2_LOCATION_NAME = "Actor2Location";
+        public const string IN_PORT_SPEAKER_NAME = "Speaker";
+
 
         public enum Location
         {
             Left = 0,
             Right = 1
+        }
+        
+        public enum Speaker
+        {
+            Character1,
+            Character2
         }
 
         /// <summary>
@@ -39,9 +50,6 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector.Editor
         {
             AddInputOutputExecutionPorts(context);
 
-            context.AddInputPort<string>(IN_PORT_ACTOR_NAME_NAME)
-                .WithDisplayName("Actor Name")
-                .Build();
             context.AddInputPort<CharacterProfile>(IN_PORT_ACTOR_PROFILE_NAME) // Updated to CharacterProfile
                 .WithDisplayName("Actor Profile") // Updated display name
                 .Build();
@@ -62,6 +70,19 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector.Editor
             context.AddInputPort<float>(IN_PORT_EFFECT_SPEED_NAME)
                 .WithDisplayName("Effect Speed")
                 .WithDefaultValue(1.0f)
+                .Build();
+            
+            context.AddInputPort<CharacterProfile>(IN_PORT_ACTOR_2_PROFILE_NAME)
+                .WithDisplayName("Actor 2 Profile")
+                .Build();
+            context.AddInputPort<CharacterProfile.ActorExpression>(IN_PORT_ACTOR_2_EXPRESSION_NAME)
+                .WithDisplayName("Actor 2 Expression")
+                .Build();
+            context.AddInputPort<Location>(IN_PORT_ACTOR_2_LOCATION_NAME)
+                .WithDisplayName("Actor 2 Location")
+                .Build();
+            context.AddInputPort<Speaker>(IN_PORT_SPEAKER_NAME)
+                .WithDisplayName("Speaker")
                 .Build();
         }
     }

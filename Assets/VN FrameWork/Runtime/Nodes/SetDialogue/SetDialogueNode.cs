@@ -29,8 +29,14 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
         public string ActorName;
         public CharacterProfile ActorProfile; // Reference to the ScriptableObject
         public CharacterProfile.ActorExpression ActorExpression; // Enum for expressions
+        public bool IsSpeaker = true;
         public int LocationIndex;
         public string DialogueText;
+        
+        public CharacterProfile Actor2Profile; // Reference to the second ScriptableObject
+        public CharacterProfile.ActorExpression Actor2Expression; // Enum for expressions for the second actor
+        public bool IsSpeaker2 = false;
+        public int Location2Index;
 
         public SpriteEffect EntryEffect = SpriteEffect.None;
         public SpriteEffect ExitEffect = SpriteEffect.None;
@@ -42,6 +48,15 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
             if (ActorProfile != null && (int)ActorExpression >= 0 && (int)ActorExpression < ActorProfile.characterSprites.Count)
             {
                 return ActorProfile.characterSprites[(int)ActorExpression];
+            }
+            return null;
+        }
+        
+        public Sprite GetActor2Sprite()
+        {
+            if (Actor2Profile != null && (int)Actor2Expression >= 0 && (int)Actor2Expression < Actor2Profile.characterSprites.Count)
+            {
+                return Actor2Profile.characterSprites[(int)Actor2Expression];
             }
             return null;
         }

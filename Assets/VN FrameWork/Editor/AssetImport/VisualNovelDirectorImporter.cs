@@ -115,17 +115,36 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector.Editor
                     break;
 
                 case SetDialogueNode setDialogueNodeModel:
-                    returnedNodes.Add(new SetDialogueRuntimeNode
+                    var speaker = GetInputPortValue<SetDialogueNode.Speaker>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_SPEAKER_NAME));
+                    var actorProfile = GetInputPortValue<CharacterProfile>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_ACTOR_PROFILE_NAME));
+                    var actor2Profile = GetInputPortValue<CharacterProfile>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_ACTOR_2_PROFILE_NAME));
+                    
+                    var runtimeNode = new SetDialogueRuntimeNode
                     {
-                        ActorName = GetInputPortValue<string>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_ACTOR_NAME_NAME)),
-                        ActorProfile = GetInputPortValue<CharacterProfile>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_ACTOR_PROFILE_NAME)), // Use ActorProfile instead of ActorSprite
-                        ActorExpression = GetInputPortValue<CharacterProfile.ActorExpression>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_EXPRESSION_NAME)), // Add ActorExpression
+                        ActorProfile = actorProfile,
+                        ActorExpression = GetInputPortValue<CharacterProfile.ActorExpression>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_EXPRESSION_NAME)),
+                        IsSpeaker = speaker == SetDialogueNode.Speaker.Character1,
                         LocationIndex = (int)GetInputPortValue<SetDialogueNode.Location>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_LOCATION_NAME)),
                         DialogueText = GetInputPortValue<string>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_DIALOGUE_NAME)),
                         EntryEffect = GetInputPortValue<SetDialogueRuntimeNode.SpriteEffect>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_ENTRY_EFFECT_NAME)),
                         ExitEffect = GetInputPortValue<SetDialogueRuntimeNode.SpriteEffect>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_EXIT_EFFECT_NAME)),
-                        EffectSpeed = GetInputPortValue<float>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_EFFECT_SPEED_NAME))
-                    });
+                        EffectSpeed = GetInputPortValue<float>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_EFFECT_SPEED_NAME)),
+                        Actor2Profile = actor2Profile,
+                        Actor2Expression = GetInputPortValue<CharacterProfile.ActorExpression>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_ACTOR_2_EXPRESSION_NAME)),
+                        Location2Index = (int)GetInputPortValue<SetDialogueNode.Location>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_ACTOR_2_LOCATION_NAME)),
+                        IsSpeaker2 = speaker == SetDialogueNode.Speaker.Character2
+                    };
+
+                    if (speaker == SetDialogueNode.Speaker.Character1 && actorProfile != null)
+                    {
+                        runtimeNode.ActorName = actorProfile.characterName;
+                    }
+                    else if (speaker == SetDialogueNode.Speaker.Character2 && actor2Profile != null)
+                    {
+                        runtimeNode.ActorName = actor2Profile.characterName;
+                    }
+                    
+                    returnedNodes.Add(runtimeNode);
                   
 
                     // Insert a WaitForInputNode after dialogue to create the expected visual novel behaviour.

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe0b5b9e14ebcfa43aaa1a2a9eeb7b76, type: 3}
-  m_Name: CharacterProfile
+  m_Name: Ieva-CharacterProfile
   m_EditorClassIdentifier: Unity.GraphToolkit.Samples.VisualNovelDirector::VN_FrameWork.CharacterProfile
   characterName: Ieva
   characterColor: {r: 0.7819176, g: 0.40272692, b: 0.86415094, a: 1}
