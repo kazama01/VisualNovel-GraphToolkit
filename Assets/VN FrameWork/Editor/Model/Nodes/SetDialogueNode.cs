@@ -21,12 +21,13 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector.Editor
         public const string IN_PORT_DIALOGUE_NAME = "Dialogue";
         public const string IN_PORT_EXPRESSION_NAME = "ActorExpression";
         public const string IN_PORT_ENTRY_EFFECT_NAME = "EntryEffect";
-        public const string IN_PORT_EXIT_EFFECT_NAME = "ExitEffect";
         public const string IN_PORT_EFFECT_SPEED_NAME = "EffectSpeed";
         
         public const string IN_PORT_ACTOR_2_PROFILE_NAME = "Actor2Profile";
         public const string IN_PORT_ACTOR_2_EXPRESSION_NAME = "Actor2Expression";
         public const string IN_PORT_ACTOR_2_LOCATION_NAME = "Actor2Location";
+        public const string IN_PORT_ENTRY_EFFECT_2_NAME = "EntryEffect2";
+        public const string IN_PORT_EFFECT_SPEED_2_NAME = "EffectSpeed2";
         public const string IN_PORT_SPEAKER_NAME = "Speaker";
 
 
@@ -64,9 +65,6 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector.Editor
             context.AddInputPort<SetDialogueRuntimeNode.SpriteEffect>(IN_PORT_ENTRY_EFFECT_NAME)
                 .WithDisplayName("Entry Effect")
                 .Build();
-            context.AddInputPort<SetDialogueRuntimeNode.SpriteEffect>(IN_PORT_EXIT_EFFECT_NAME)
-                .WithDisplayName("Exit Effect")
-                .Build();
             context.AddInputPort<float>(IN_PORT_EFFECT_SPEED_NAME)
                 .WithDisplayName("Effect Speed")
                 .WithDefaultValue(1.0f)
@@ -80,6 +78,13 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector.Editor
                 .Build();
             context.AddInputPort<Location>(IN_PORT_ACTOR_2_LOCATION_NAME)
                 .WithDisplayName("Actor 2 Location")
+                .Build();
+            context.AddInputPort<SetDialogueRuntimeNode.SpriteEffect>(IN_PORT_ENTRY_EFFECT_2_NAME)
+                .WithDisplayName("Entry Effect 2")
+                .Build();
+            context.AddInputPort<float>(IN_PORT_EFFECT_SPEED_2_NAME)
+                .WithDisplayName("Effect Speed 2")
+                .WithDefaultValue(1.0f)
                 .Build();
             context.AddInputPort<Speaker>(IN_PORT_SPEAKER_NAME)
                 .WithDisplayName("Speaker")

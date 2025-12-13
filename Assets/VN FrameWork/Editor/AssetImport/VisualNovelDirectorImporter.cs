@@ -127,12 +127,13 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector.Editor
                         LocationIndex = (int)GetInputPortValue<SetDialogueNode.Location>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_LOCATION_NAME)),
                         DialogueText = GetInputPortValue<string>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_DIALOGUE_NAME)),
                         EntryEffect = GetInputPortValue<SetDialogueRuntimeNode.SpriteEffect>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_ENTRY_EFFECT_NAME)),
-                        ExitEffect = GetInputPortValue<SetDialogueRuntimeNode.SpriteEffect>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_EXIT_EFFECT_NAME)),
                         EffectSpeed = GetInputPortValue<float>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_EFFECT_SPEED_NAME)),
                         Actor2Profile = actor2Profile,
                         Actor2Expression = GetInputPortValue<CharacterProfile.ActorExpression>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_ACTOR_2_EXPRESSION_NAME)),
                         Location2Index = (int)GetInputPortValue<SetDialogueNode.Location>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_ACTOR_2_LOCATION_NAME)),
-                        IsSpeaker2 = speaker == SetDialogueNode.Speaker.Character2
+                        IsSpeaker2 = speaker == SetDialogueNode.Speaker.Character2,
+                        EntryEffect2 = GetInputPortValue<SetDialogueRuntimeNode.SpriteEffect>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_ENTRY_EFFECT_2_NAME)),
+                        EffectSpeed2 = GetInputPortValue<float>(setDialogueNodeModel.GetInputPortByName(SetDialogueNode.IN_PORT_EFFECT_SPEED_2_NAME))
                     };
 
                     if (speaker == SetDialogueNode.Speaker.Character1 && actorProfile != null)

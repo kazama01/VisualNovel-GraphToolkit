@@ -39,8 +39,10 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
         public int Location2Index;
 
         public SpriteEffect EntryEffect = SpriteEffect.None;
-        public SpriteEffect ExitEffect = SpriteEffect.None;
         public float EffectSpeed = 1.0f;
+        
+        public SpriteEffect EntryEffect2 = SpriteEffect.None;
+        public float EffectSpeed2 = 1.0f;
 
 
         public Sprite GetActorSprite()
@@ -54,7 +56,7 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
         
         public Sprite GetActor2Sprite()
         {
-            if (Actor2Profile != null && (int)Actor2Expression >= 0 && (int)Actor2Expression < Actor2Profile.characterSprites.Count)
+            if (Actor2Profile != null && (int)Actor2Expression >= 0 && (int)Actor2Expression < ActorProfile.characterSprites.Count)
             {
                 return Actor2Profile.characterSprites[(int)Actor2Expression];
             }

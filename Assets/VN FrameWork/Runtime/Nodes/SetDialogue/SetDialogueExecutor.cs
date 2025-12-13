@@ -77,25 +77,13 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
                     animator = actor2Image.gameObject.AddComponent<SpriteAnimator>();
                 }
 
-                if (runtimeNode.IsSpeaker2 && runtimeNode.EntryEffect != SetDialogueRuntimeNode.SpriteEffect.None)
+                if (runtimeNode.IsSpeaker2 && runtimeNode.EntryEffect2 != SetDialogueRuntimeNode.SpriteEffect.None)
                 {
-                    animator.PlayEffect(runtimeNode.EntryEffect, runtimeNode.EffectSpeed);
+                    animator.PlayEffect(runtimeNode.EntryEffect2, runtimeNode.EffectSpeed2);
                 }
             }
 
             await TypeTextWithSkipAsync(runtimeNode.DialogueText, ctx);
-
-            if (actorImage != null && runtimeNode.IsSpeaker && runtimeNode.ExitEffect != SetDialogueRuntimeNode.SpriteEffect.None)
-            {
-                SpriteAnimator animator = actorImage.GetComponent<SpriteAnimator>();
-                animator.PlayEffect(runtimeNode.ExitEffect, runtimeNode.EffectSpeed);
-            }
-            
-            if (actor2Image != null && runtimeNode.IsSpeaker2 && runtimeNode.ExitEffect != SetDialogueRuntimeNode.SpriteEffect.None)
-            {
-                SpriteAnimator animator = actor2Image.GetComponent<SpriteAnimator>();
-                animator.PlayEffect(runtimeNode.ExitEffect, runtimeNode.EffectSpeed);
-            }
         }
 
         private static async Task TypeTextWithSkipAsync(string dialogueText, VisualNovelDirector ctx)
