@@ -41,10 +41,8 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
                 ctx.ActorNameText.color = runtimeNode.Actor2Profile.characterColor;
             }
 
+            // Disable all locations first
             foreach (var location in ctx.ActorLocationList)
-                location.enabled = false;
-            
-            foreach (var location in ctx.Actor2LocationList)
                 location.enabled = false;
 
             Image actorImage = null;
@@ -67,9 +65,9 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
             }
             
             Image actor2Image = null;
-            if (runtimeNode.GetActor2Sprite() != null && runtimeNode.Location2Index >= 0 && runtimeNode.Location2Index < ctx.Actor2LocationList.Count)
+            if (runtimeNode.GetActor2Sprite() != null && runtimeNode.Location2Index >= 0 && runtimeNode.Location2Index < ctx.ActorLocationList.Count)
             {
-                actor2Image = ctx.Actor2LocationList[runtimeNode.Location2Index];
+                actor2Image = ctx.ActorLocationList[runtimeNode.Location2Index];
                 actor2Image.enabled = true;
                 actor2Image.sprite = runtimeNode.GetActor2Sprite();
 
